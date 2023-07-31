@@ -20,7 +20,7 @@ $('#movie-btn').click(function() {
     // Make AJAX request to Edamam Recipe Search API
     $.ajax({
      
-      url: 'https://api.edamam.com/search?q=' + query + '&app_id=c89a7fc2&app_key=e77eff70c80dbc977ad3f84fc62989bf',
+      url: 'https://api.edamam.com/search?q=' + query + '&app_id= "HIDE API-KEY FOR NOW"    ',
 
       method: 'GET',
       success: function(data) {
